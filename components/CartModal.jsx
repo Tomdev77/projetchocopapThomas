@@ -3,7 +3,7 @@ import { createPortal } from "react-dom";
 import "../styles/CartModal.css";
 import Cart from "../components/cart";
 
-// Composant CartModal => affichage de la pop up Cart modal =>  DEUXIEME PAGE PRODUITS,TROISIEME PAGE => fiche produits
+// Composant CartModal => affichage du panier pop up Cart modal =>  DEUXIEME PAGE PRODUITS,TROISIEME PAGE => fiche produits
 
 
 const CartModal = forwardRef(function Modal({}, ref) {
