@@ -67,8 +67,8 @@ setNoteMax(e.target.value);
 };
 
 
-// fonction qui semble changer l'état de selection d'une catégorie . si elle est slectionnée , elle est déslectionnées et si elle est déselectionnée , elle est selectionnée.
-// si une autre catégorie est sélectionnée et que "tous les produits" est sélectionnée, "tous les produits" est déselectionnée
+// fonction conditionnelle qui gère la sélection des produits en fonction de la sélection des sélections de l'utilisateur 
+
 const handleCategoryChange = (category) => {
 let updatedCategories;
 if (category === "Tous les produits") {
@@ -94,7 +94,7 @@ console.log(updatedCategories);
 };
 
 
-// selection du tableau chocolats, la condition vérifie si selected categories inclut tous les produits . une cotégorie est sélectionnée ou toutes les catégorie.
+// selection du tableau chocolats, la condition vérifie si selected categories inclut tous les produits . une catégorie est sélectionnée ou toutes les catégories.
 
 const filteredChocolats = chocolats.filter((chocolat) => {
 const isTousLesProduitsSelected =
@@ -134,7 +134,7 @@ setNoteMin(""); // Réinitialise à 0
 setNoteMax(""); // Réinitialise à 0 
 };
 
-
+// incrémenter + valeur (1) => Id 
 const handleAddToCart = (chocolatId) => {
 setCart((prevCart) => ({
 ...prevCart,
@@ -144,7 +144,6 @@ setCart((prevCart) => ({
 
 
 
-// Style pour l'affichage de l'image
 
 return (
 <>
