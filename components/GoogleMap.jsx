@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Composant Google Map => PREMIERE PAGE PRESENTATION HP
-
+// intégration iframe Carte google => géoloc
 
 export default function GoogleMap() {
 return (
