@@ -1,4 +1,4 @@
-ureimport React from "react";
+import React from "react";
 import Badge from "react-bootstrap/Badge";
 
 function BasketItem({ chocolat, totalProduct, handlOpenCart, addItemToCart }) {
