@@ -1,4 +1,4 @@
-import React from "react";
+ureimport React from "react";
 import Badge from "react-bootstrap/Badge";
 
 function BasketItem({ chocolat, totalProduct, handlOpenCart, addItemToCart }) {
@@ -7,8 +7,8 @@ function BasketItem({ chocolat, totalProduct, handlOpenCart, addItemToCart }) {
     <div className="basket">
       <span
         onClick={() => {
-          handlOpenCart(); // Make sure this function is implemented in the parent component
-          addItemToCart(chocolat.id); // Ensure this function updates the cart state
+          handlOpenCart(); // ouverture du panier pop up
+          addItemToCart(chocolat.id); // joue sur l'état du panier pop up, ajoute un produit en fonction de l'id chocolat
         }}
       >
         {totalProduct}
