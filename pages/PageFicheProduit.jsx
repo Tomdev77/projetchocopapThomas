@@ -92,7 +92,8 @@ setSelectedCategories(updatedCategories);
 console.log(updatedCategories);
 };
 
-  
+  // selection du tableau chocolats, la condition vérifie si selected categories inclut tous les produits . une catégorie est sélectionnée ou toutes les catégories.
+
 const filteredChocolats = chocolats.filter((chocolat) => {
 const isTousLesProduitsSelected = selectedCategories.includes("Tous les produits");
 const isCategoryMatch = 
