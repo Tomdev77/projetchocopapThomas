@@ -1,0 +1,193 @@
+.fetchdatadesktop1{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-left: 15%;
+margin-top: 115%;
+
+}
+
+.fetchdatadesktop{
+
+display: none;
+
+}
+
+
+.mobileDropdownContainer, .filterContainer{
+
+display: none !important;
+
+}
+
+
+.containerForm{
+
+
+width: 450px !important;
+height: 765px;
+margin-top: -175% !important;
+position: sticky!important;
+top: 105px !important;
+color: black;
+border: solid 2px rgb(218, 218, 218);
+border-radius: 5px;
+padding: 2px 2px 5px 25px;
+margin-left: 1%;
+margin-right: 15%;
+font-size: 15px;
+background-color: #ffffff;
+margin-bottom: 20%;
+    
+}
+
+
+.buttempty, .buttvalidate{
+
+width: 300px;
+margin: auto;
+background-color: var(--primary);
+text-align: center;
+
+}
+
+
+
+.buttaddproduct{
+
+width: 250px;
+margin-bottom: 15%;
+display: flex;
+margin: auto;
+
+}
+
+.buttinfos{
+
+width: 300px;
+background-color: black;
+text-align: center;
+
+}
+
+.resetbutt{
+
+border-radius: 5px;
+border: solid 1px;
+padding: 5px 15px 5px 5px;
+cursor: pointer;
+background-color: var(--primary);
+color: white;
+
+}
+  
+h4{
+
+font-size: 20px;
+font-weight: 500;
+
+    
+}
+
+.filter{
+
+width: 50px;
+display: flex;
+}
+
+.bannerrightside{
+
+display: flex;
+flex-wrap: wrap;
+padding: 15px 15px 15px 15px;
+width: 50px;
+
+}
+
+#dropdowndata{
+
+display: none !important;
+
+}
+
+    
+
+section{
+
+width: 380px;
+border: 1px solid #000000;
+margin: 15px;
+padding: 20px;
+background-color: #050505;
+border-radius: 7px;
+opacity: 0.5;
+color: white;
+margin-bottom: 5%;
+margin-left: 18%;
+transition: transform 1s; /* Animation */
+
+
+
+}
+
+section h2, section p{
+
+text-align: center;
+margin-top: 10px;
+}
+
+section span{
+
+background-color: var(--primary);
+border: solid 1px black;
+border-radius: 4px;
+padding: 5px 10px 5px 10px;
+display: flex;
+justify-content: center;
+}
+
+section span:hover{
+
+text-align: center;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border: solid 1px black;
+    
+
+}
+
+section:hover{
+
+opacity: 1;
+cursor: pointer;
+transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+section img{
+
+width: 100%;
+height: 150px;
+border: 1px solid #cccbcb;
+
+
+}
+
+.titleBoutiquesection{
+
+font-size: 85px;
+text-align: center;
+position: flex;
+justify-content: center;
+padding-top: 10%;
+margin-bottom: 25%;
+margin-left: 15%;
+
+}
+
+
+
+
+
+
+
