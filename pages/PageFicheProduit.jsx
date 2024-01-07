@@ -65,8 +65,9 @@ setCart(newCart);
 }
 };
 
-// fonction qui semble changer l'état de selection d'une catégorie . si elle est slectionnée , elle est déslectionnées et si elle est déselectionnée , elle est selectionnée.
-// si une autre catégorie est sélectionnée et que "tous les produits" est sélectionnée, "tous les produits" est déselectionnée
+// fonction conditionnelle qui gère la sélection des produits en fonction de la sélection des sélections de l'utilisateur 
+
+  
 const handleCategoryChange = (category) => {
 let updatedCategories;
 if (category === "Tous les produits") {
@@ -91,6 +92,7 @@ setSelectedCategories(updatedCategories);
 console.log(updatedCategories);
 };
 
+  
 const filteredChocolats = chocolats.filter((chocolat) => {
 const isTousLesProduitsSelected = selectedCategories.includes("Tous les produits");
 const isCategoryMatch = 
@@ -112,7 +114,7 @@ return (
 
 {filteredChocolats.map((chocolat) => (
 <div className="containerParentficheproduct" key={chocolat.id}>
-{/* ... (le contenu de chaque chocolat ici) ... */}
+{/* le contenu de chaque chocolat ici */}
 
 <img id="imgficheproduct"src={require(`../images/${chocolat.image}`)}alt={chocolat.id + " image"}/>
 
