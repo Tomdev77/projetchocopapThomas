@@ -8,7 +8,7 @@ function BasketItem({ chocolat, totalProduct, handlOpenCart, addItemToCart }) {
       <span
         onClick={() => {
           handlOpenCart(); // ouverture du panier pop up
-          addItemToCart(chocolat.id); // joue sur l'état du panier pop up, ajoute un produit en fonction de l'id chocolat
+          addItemToCart(chocolat.id); // joue sur l'état du panier pop up, ajoute un produit en fonction de l'id chocolat (contenu)
         }}
       >
         {totalProduct}
